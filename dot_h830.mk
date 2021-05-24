@@ -42,6 +42,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="h1" \
     PRODUCT_DEVICE="h1" \
     PRODUCT_NAME="h1_tmo_us" \
-    PRIVATE_BUILD_DESC="h1_tmo_us-user 8.0.0 OPR1.170623.032 182251913485f release-keys"
+    PRIVATE_BUILD_DESC="redfin-user 11 RQ2A.210505.003 7255357 release-keys"
 
-BUILD_FINGERPRINT := "lge/h1_tmo_us/h1:8.0.0/OPR1.170623.032/182251913485f:user/release-keys"
+BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ2A.210505.003/7255357:user/release-keys"
