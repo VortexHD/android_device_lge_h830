@@ -28,5 +28,8 @@ BOARD_KERNEL_IMAGE_NAME := Image.lz4-dtb
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel/$(BOARD_KERNEL_IMAGE_NAME)
 TARGET_FORCE_PREBUILT_KERNEL := true
 
+# Security patch level
+VENDOR_SECURITY_PATCH := 2018-08-01
+
 # inherit from the proprietary version
 include vendor/lge/h830/BoardConfigVendor.mk
