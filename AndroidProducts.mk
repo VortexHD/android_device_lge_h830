@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_h830.mk
+    $(LOCAL_DIR)/lineage_h830.mk
 
 COMMON_LUNCH_CHOICES := \
-    dot_h830-userdebug \
-	dot_h830-user \
-    dot_h830-eng
+    lineage_h830-userdebug \
+	lineage_h830-user \
+    lineage_h830-eng
